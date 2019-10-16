@@ -782,3 +782,10 @@ body {
   height: 180px;
   object-fit: cover;
 }
+
+.portfolio-artwork-img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+}
