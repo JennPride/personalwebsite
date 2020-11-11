@@ -45,6 +45,7 @@ h6 {
   font-family: "ABeeZee", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
+  pading: 20px;
 }
 .img-centered {
   margin: 0 auto;
@@ -564,18 +565,18 @@ section#contact {
   text-align: center;
 }
 
-section#contact .intro-text {
+.intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
 }
-section#contact .intro-text .intro-lead-in {
+.intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
 }
-section#contact .intro-text .intro-heading {
+.intro-text .intro-heading {
   font-family: "ABeeZee", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -583,32 +584,6 @@ section#contact .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
 }
-/*
-section#contact p {
-  font-size: 17px;
-}
-
-section#contact h2 {
-  font-size: 45px;
-}*/
-
-/*section#contact .form-group {
-  margin-bottom: 25px;
-}
-section#contact .form-group input,
-section#contact .form-group textarea {
-  padding: 20px;
-}
-section#contact .form-group input.form-control {
-  height: auto;
-}
-section#contact .form-group textarea.form-control {
-  height: 236px;
-}*/
-/*section#contact .form-control:focus {
-  border-color: #48A4B6;
-  box-shadow: none;
-}*/
 section#contact ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -788,4 +763,43 @@ body {
   max-width: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.hireMe-header {
+  font-family: "ABeeZee", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  padding: 0px 10px 20px 20px;
+}
+
+#services {
+  background-color: #48A4B6;
+  text-align: center;
+  background-image: linear-gradient(160deg, #48A4B6 0%, #99dec0 100%);
+}
+
+.hireMe-header {
+  text-align: left;
+}
+
+.hireMe-subHeader{
+  text-align: left;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-transform: none;
+  padding-left: 5%;
+}
+
+.hireMe-description {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  text-transform: none;
+  padding-bottom: 10px;
+}
+
+.hireMe-emphasis {
+  color: white;
+}
+
+#services .btn-xl {
+  background: rgba(0, 0, 0, .5) !important;
 }
