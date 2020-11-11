@@ -803,3 +803,20 @@ body {
 #services .btn-xl {
   background: rgba(0, 0, 0, .5) !important;
 }
+
+.hireMe-list li {
+  display: inline;
+}
+
+.hireMe-workedWith {
+  text-transform: none;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+}
+
+.hireMe-cta {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  margin: 20px 0px;
+}
