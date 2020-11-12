@@ -60,6 +60,7 @@ h6 {
 .btn-primary {
   color: white;
   background-color: #48A4B6;
+  border: none;
   font-family: "ABeeZee", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -163,7 +164,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle {
   background-color: #48A4B6;
-  border-color: #48A4B6;
+  border: none;
   font-family: "ABeeZee", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
